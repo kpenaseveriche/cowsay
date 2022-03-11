@@ -1,6 +1,9 @@
 import sys
 
 def main(args):
+	'''
+	Prints the drawing of a cow saying anything.
+	'''
 	message = ' '.join(args)
 	print (
 		f' ___________\n'
