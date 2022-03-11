@@ -6,9 +6,9 @@ def main(args):
 	'''
 	message = ' '.join(args)
 	print (
-		f' ___________\n'
-		f'< {message} >\n'
 		f' -----------\n'
+		f'< {message} >\n'
+		f' _______________\n'
 		f'        \\   ^__^\n'
 		f'         \\  (oo)\\_______\n'
 		f'            (__)\\       )\\/\\\n'
