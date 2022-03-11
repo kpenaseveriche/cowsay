@@ -5,10 +5,11 @@ def main(args):
 	Prints the drawing of a cow saying anything.
 	'''
 	message = ' '.join(args)
+	lines=(len(message)+2)*"_"
 	print (
-		f' ___________\n'
+		f' {lines} \n'
 		f'< {message} >\n'
-		f' -----------\n'
+		f' {lines} \n'
 		f'        \\   ^__^\n'
 		f'         \\  (oo)\\_______\n'
 		f'            (__)\\       )\\/\\\n'
